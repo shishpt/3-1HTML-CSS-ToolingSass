@@ -1,0 +1,10 @@
+#hamnav {
+    width: 100%;
+    background: #000;
+}
+
+#hamitems {
+    display: flex;
+}hamitems a {
+    flex-grow: 1;
+}

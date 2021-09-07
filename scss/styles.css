@@ -14,4 +14,21 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+#hamnav {
+  width: 100%;
+  background: #000;
+}
+
+#hamitems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+hamitems a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
 /*# sourceMappingURL=styles.css.map */
