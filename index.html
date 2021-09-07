@@ -3,44 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="scss/styles.css">
     <title>SneakerFeet</title>
 </head>
 <body>
     <header class="herospace">
         <div class="container">
-            <nav>
+            <nav id="hamnav">
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+                    <div id="hamitems">
+                        <a href="#!">home</a>
+                        <a href="#!">new releases</a>
+                        <a href="#!">vintage</a>
+                        <a href="#!">contact</a>
+                        <a href="#!">login</a>
+                    </div>
                 <h1 class="logo">SneakerFeet</h1>
-                <ul>
-                    <li a href="#">home</li>
-                    <li a href="#">about</li>
-                    <li a href="#">new releases</li>
-                    <li a href="#">vintage</li>
-                    <li a href="#">contact</li>
-
-                </ul>
             </nav>
-
             <div class="herospace-content">
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <img src="http://www.pngall.com/wp-content/uploads/2016/04/Running-Shoes-PNG-Clipart.png" alt="sneakers">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae laboriosam provident saepe, modi veritatis sequi.</p>
+                <img class="heroimage" src="http://www.pngall.com/wp-content/uploads/2016/04/Running-Shoes-PNG-Clipart.png" alt="sneakers">
 <!--                <img src="https://www.believeintherun.com/wp-content/uploads/2017/01/adidas-supernova.png" alt="sneaker"> -->
             </div>
         </div>
     </header>
-    <div class="card_parent">
-        <div class="card-1">
-            <h3>MEN</h3>
-            <a href="#" class="btn-primary">Purchase</a>
+        <div class="card_parent">
+            <div class="card-1">
+                <img class="mensneaker" src="https://www.tennisnuts.com/images/product/full/T6C3N-4190-.jpg">
+                <h3>MEN</h3>
+                <a href="#" class="btn-primary">Purchase</a>
+            </div>
+            <div class="card-2"> 
+                <img class="womensneaker" src="https://res.cloudinary.com/eastern/image/upload/w_1000,q_auto,f_auto/1298770_001_alt2.jpg">
+                <h3>WOMEN</h3>
+                <a href="#" class="btn-primary">Purchase</a>
+            </div>
+            <div class="card-3">
+                <img class="childrensneaker" src="https://images-na.ssl-images-amazon.com/images/I/71CaMcdPE-L._UL1500_.jpg" alt="kids sneakers">
+                <h3>CHILDREN</h3>
+                <a href="#" class="btn-primary">Purchase</a>
+            </div>
         </div>
-        <div class="card-2"> 
-            <h3>WOMEN</h3>
-            <a href="#" class="btn-primary">Purchase</a>
-        </div>
-        <div class="card-3">
-            <h3>CHILDREN</h3>
-            <a href="#" class="btn-primary">Purchase</a>
-        </div>
-    </div>
 </body>
 </html>
