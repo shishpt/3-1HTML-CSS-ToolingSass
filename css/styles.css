@@ -1,81 +1,47 @@
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+#card_parent {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
 .herospace {
-  height: 600px;
-  background-color: lightblue;
+  width: 100vw;
+  height: 100vh;
+}
+
+#hamnav {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  background: #8fbc8f;
+  margin-right: 0px;
+}
+
+#hamitems {
+  display: inline-flex;
+  margin-right: 0px;
+}
+
+.logo {
+  border: 2px solid black;
+  margin-left: 0px;
+  position: relative;
+  width: 10vw;
+}
+
+#hamitems a {
   color: white;
-}
-.herospace p {
-  color: set-text-color(#1a3d56);
-}
-.herospace nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-decoration: none;
-}
-.herospace nav ul {
-  display: flex;
-  list-style-type: none;
-}
-.herospace nav li {
   text-transform: uppercase;
-  padding: 10px;
-}
-.herospace nav a {
-  color: set-text-color(#1a3d56);
-}
-.herospace-content {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  font-size: 1.5rem;
-}
-.herospace h1 {
-  font-size: 50px;
-}
-
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-img {
-  transform: rotate(20deg);
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
-  padding: 2%;
-}
-
-.card-parent {
-  display: flex;
-  flex-direction: row;
-}
-
-.card-1 {
-  background-color: #f1f1f1;
-  padding: 20px;
+  flex-grow: 1;
+  text-decoration: none;
   font-size: 30px;
-  align-items: flex-start;
-}
-
-.card-2 {
-  background-color: #orange;
-  padding: 20px;
-  font-size: 30px;
-}
-
-.card-3 {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-size: 30px;
+  padding: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */

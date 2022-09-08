@@ -1,10 +1,29 @@
 #hamnav {
+    position: absolute;
+    display: flex;
     width: 100%;
-    background: #000;
+    background: $pri-color;
+    margin-right: 0px;
 }
 
 #hamitems {
-    display: flex;
-}hamitems a {
+    display: inline-flex;
+    margin-right: 0px;
+}
+
+.logo {
+    border: 2px solid black;
+    margin-left: 0px;
+    position: relative;
+    width: 10vw;
+}
+
+#hamitems a {
+    color: white;
+    text-transform: uppercase;
     flex-grow: 1;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 25px;
+
 }
