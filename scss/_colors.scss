@@ -3,3 +3,19 @@
 $lifont-color: #def3ff;
 $dkfont-color: #1a3d56;
 $pri-color: #8fbc8f;
+$bck-color: #080808;
+$logo-color:pink;
+
+body {
+  background-color: $bck-color
+}
+
+.logo {
+  color: $logo-color;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}

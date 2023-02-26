@@ -1,10 +1,31 @@
-#card_parent {
+.card_parent {
     display: flex;
-    height: 200px;
+    width: 100%;
     align-items: center;
 }
 
 .herospace {
     width: 100vw;
     height: 100vh;
+}
+
+.womensneaker, .mensneaker, .childrensneaker {
+    width: 20vw;
+    height: 15vw;
+}
+
+.btn-primary {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    text-align: center;
+  }
+  .card-1 {
+        align-items: center;
+    }
+  .btn-primary {
+        align-items: center;
+    }
 }

@@ -1,12 +1,25 @@
+body {
+  background-color: #080808;
+}
+
+.logo {
+  color: pink;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-#card_parent {
+.card_parent {
   display: flex;
-  height: 200px;
+  width: 100%;
   align-items: center;
 }
 
@@ -15,6 +28,26 @@
   height: 100vh;
 }
 
+.womensneaker, .mensneaker, .childrensneaker {
+  width: 20vw;
+  height: 15vw;
+}
+
+.btn-primary {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    text-align: center;
+  }
+  .card-1 {
+    align-items: center;
+  }
+  .btn-primary {
+    align-items: center;
+  }
+}
 #hamnav {
   position: absolute;
   display: flex;
@@ -32,7 +65,8 @@
   border: 2px solid black;
   margin-left: 0px;
   position: relative;
-  width: 10vw;
+  font-family: "Norican";
+  font-size: 48px;
 }
 
 #hamitems a {
