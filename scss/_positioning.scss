@@ -6,7 +6,19 @@
 
 .herospace {
     width: 100vw;
-    height: 100vh;
+}
+
+.herospace-content {
+    display:relative;
+    width:100%;
+}
+
+.heroimage {
+    display: absolute;
+}
+
+.container {
+    display:relative;
 }
 
 .womensneaker, .mensneaker, .childrensneaker {
